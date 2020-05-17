@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F1F3F3</color>
+    <color name="colorPrimaryDark">#F1F3F3</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="line_color">#DEDEDE</color>
+    <color name="bmiTextOrangeColor">#FF5D00</color>
+    <color name="bmiTextDefaultColor">#4A4A4A</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="keyboardClickedColor">#DEDEDE</color>
+    <color name="goBackgroundColor">#FF5D00</color>
+
+    <color name="keyboardKeyColor">#6F7480</color>
+    <color name="keyboardKeyOrangeColor">#FF5D00</color>
+
+    <color name="underWeightColor">#4091E2</color>
+    <color name="normalWeightColor">#07B566</color>
+    <color name="overWeightColor">#FF6657</color>
+    <color name="layoutBackground">#DEDEDE</color>
+    <color name="actionBarTextColor">#4A4A4A</color>
+    <color name="heightWeightLayoutBackground">#F1F3F3</color>
+    <color name="view_under_weight_background">#4091E2</color>
+    <color name="view_normal_background">#07B566</color>
+    <color name="view_over_weight_background">#FF6657</color>
+    <color name="result_text_color">#FF5D00</color>
+    <color name="bmi_text_color">#6f7480</color>
+    <color name="result_line_color">#6F7480</color>
+    <color name="result_info_color">#6f7480</color>
+</resources>

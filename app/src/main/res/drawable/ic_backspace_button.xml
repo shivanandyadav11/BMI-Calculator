@@ -1,0 +1,9 @@
+<vector xmlns:tools="http://schemas.android.com/tools"
+    android:autoMirrored="true" android:height="25dp"
+    android:viewportHeight="25" android:viewportWidth="28"
+    android:width="28dp" xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="VectorRaster">
+    <path android:fillColor="#6F7480" android:fillType="evenOdd"
+        android:pathData="M0.6053,9.693L0.3666,10L0.6053,10.307L6.378,17.729C7.1507,18.7224 8.7398,19.5 9.9974,19.5L25.0026,19.5C26.3841,19.5 27.5,18.3841 27.5,17.0049L27.5,2.9951C27.5,1.6165 26.3819,0.5 25.0026,0.5L9.9974,0.5C8.7377,0.5 7.1512,1.2769 6.378,2.271L0.6053,9.693ZM9.9974,1.5L25.0026,1.5C25.8299,1.5 26.5,2.1691 26.5,2.9951L26.5,17.0049C26.5,17.8318 25.8318,18.5 25.0026,18.5L9.9974,18.5C9.0485,18.5 7.7506,17.865 7.1674,17.1151L1.6381,9.994L7.1674,2.8849C7.7512,2.1343 9.0465,1.5 9.9974,1.5ZM16.2929,10L12.6464,6.3536L13.3536,5.6464L17,9.2929L20.6464,5.6464L21.3536,6.3536L17.7071,10L21.3536,13.6464L20.6464,14.3536L17,10.7071L13.3536,14.3536L12.6464,13.6464L16.2929,10Z"
+        android:strokeColor="#00000000" android:strokeWidth="4"/>
+</vector>

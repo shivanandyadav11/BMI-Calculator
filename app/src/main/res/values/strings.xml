@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+
+    //weight
+    <string name="text_weight">Weight</string>
+    <string name="text_value_weight">60</string>
+    <string name="text_weight_unit">kilogram</string>
+
+    //Height
+    <string name="text_height">Height</string>
+    <string name="text_value_height">170</string>
+    <string name="text_height_unit">Centimeter</string>
+
+    <string name="text_size">22sp</string>
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="dot">.</string>
+    <string name="ac">AC</string>
+    <string name="go">GO</string>
+
+    //Weight Information
+    <string name="underWeight">UnderWeight</string>
+    <string name="normal">Normal</string>
+    <string name="overWeight">Over Weight</string>
+
+    <string name="bmi">BMI</string>
+    <string name="under_weight_lower_bound">16.0</string>
+    <string name="under_weight_upper_bound">18.5</string>
+    <string name="normal_upper_bound">25.0</string>
+    <string name="overweight_upper_bound">40.0</string>
+    <string name="result_default_text">22.5</string>
+    <string name="information_default_text">Information</string>
+
+    <string name="invalid_message">Invalid BMI! Please check your input</string>
+
+
+</resources>

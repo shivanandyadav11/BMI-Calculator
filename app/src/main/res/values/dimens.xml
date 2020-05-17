@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionBarSize">18sp</dimen>
+    <dimen name="keyboardKeySize">22sp</dimen>
+    <dimen name="keyboardLayoutHeight">380dp</dimen>
+
+    <dimen name="weight_margin_left">32dp</dimen>
+    <dimen name="weight_margin_top">32dp</dimen>
+    <dimen name="weight_margin_start">32dp</dimen>
+    <dimen name="weight_text_size">22sp</dimen>
+    <dimen name="weight_text_margin_top">24dp</dimen>
+    <dimen name="weight_text_margin_end">32dp</dimen>
+    <dimen name="weight_text_margin_right">32dp</dimen>
+
+    <dimen name="line_margin_top">104dp</dimen>
+
+    <dimen name="height_margin_start">32dp</dimen>
+    <dimen name="height_margin_top">32dp</dimen>
+    <dimen name="height_text_size">22sp</dimen>
+
+    <dimen name="button_margin_end">.5dp</dimen>
+    <dimen name="button_margin_bottom">.5dp</dimen>
+
+    <dimen name="text_size">22sp</dimen>
+
+    <dimen name="keypad_button_width">0dp</dimen>
+    <dimen name="keypad_button_height">0dp</dimen>
+
+    <dimen name="result_margin_start">16dp</dimen>
+    <dimen name="result_margin_left">16dp</dimen>
+    <dimen name="result_margin_top">32dp</dimen>
+    <dimen name="result_margin_end">16dp</dimen>
+    <dimen name="result_margin_right">16dp</dimen>
+    <dimen name="result_padding_top">48dp</dimen>
+    <dimen name="result_padding_bottom">48dp</dimen>
+
+    <dimen name="weight_table_width">0dp</dimen>
+
+    <dimen name="keypad_layout_width">0dp</dimen>
+
+    <dimen name="landscape_margin_bottom">8dp</dimen>
+    <dimen name="landscape_margin_top">8dp</dimen>
+    <dimen name="landscape_margin_start">8dp</dimen>
+    <dimen name="landscape_margin_end">8dp</dimen>
+
+    <dimen name="view_width">0dp</dimen>
+    <dimen name="view_height">5dp</dimen>
+
+    <dimen name="with_height_margin_top">44dp</dimen>
+    <dimen name="line_height_width">1dp</dimen>
+    <dimen name="result_text_size">70sp</dimen>
+    <dimen name="bmi_text_size">40sp</dimen>
+    <dimen name="weight_category_text_size">16sp</dimen>
+    <dimen name="result_elevation">10dp</dimen>
+    <dimen name="result_line_margin_start">32dp</dimen>
+    <dimen name="result_line_margin_end">32dp</dimen>
+    <dimen name="result_line_height">5dp</dimen>
+    <dimen name="result_info_size">18sp</dimen>
+    <dimen name="weight_category_margin_top">12dp</dimen>
+    <dimen name="weight_category_width">0dp</dimen>
+    <dimen name="result_text_margin_start">30dp</dimen>
+    <dimen name="result_text_margin_top">16dp</dimen>
+    <dimen name="result_text_margin_end">30dp</dimen>
+    <dimen name="result_text_width">0dp</dimen>
+    <dimen name="weight_category_padding_start">5dp</dimen>
+    <dimen name="result_info_margin_top">36dp</dimen>
+    <dimen name="result_info_margin_bottom">24dp</dimen>
+    <dimen name="category_bar_margin_top">10dp</dimen>
+    <dimen name="result_card_elevation">10dp</dimen>
+</resources>

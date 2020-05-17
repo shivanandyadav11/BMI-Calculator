@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:result="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/bmi_result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/result_text_margin_start"
+        android:layout_marginTop="@dimen/result_text_margin_top"
+        android:layout_marginEnd="@dimen/result_text_margin_end"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="@dimen/result_text_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tv_bmi_result_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textAlignment="center"
+                android:textColor="@color/result_text_color"
+                android:textSize="@dimen/result_text_size"
+                result:text="@string/result_default_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/result_text_width"
+            android:layout_height="match_parent"
+            android:layout_weight=".8"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="@string/bmi"
+                android:textColor="@color/bmi_text_color"
+                android:textSize="@dimen/bmi_text_size" />
+
+            <TextView
+                android:id="@+id/tv_person_weight_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:paddingStart="@dimen/weight_category_padding_start"
+                android:text="@string/normal"
+                android:textSize="@dimen/weight_category_text_size"
+                result:ignore="RtlSymmetry" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/result_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/result_line_height"
+        android:layout_below="@+id/bmi_result_text"
+        android:layout_marginStart="@dimen/result_line_margin_start"
+        android:layout_marginEnd="@dimen/result_line_margin_end"
+        android:background="@color/result_line_color"
+        android:elevation="@dimen/result_elevation">
+
+    </View>
+
+    <TextView
+        android:id="@+id/information_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/result_info_margin_top"
+        android:layout_marginBottom="@dimen/result_info_margin_bottom"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/result_info_color"
+        android:textSize="@dimen/result_info_size"
+        android:text="@string/information_default_text" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information_text"
+        android:layout_marginStart="@dimen/result_line_margin_start"
+        android:layout_marginEnd="@dimen/result_line_margin_end"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/weight_category_margin_top"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="@dimen/weight_category_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/underWeight"
+                android:textAlignment="center"
+                android:textColor="@color/underWeightColor" />
+
+            <TextView
+                android:layout_width="@dimen/weight_category_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/normal"
+                android:textAlignment="center"
+                android:textColor="@color/normalWeightColor" />
+
+            <TextView
+                android:layout_width="@dimen/weight_category_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/overWeight"
+                android:textAlignment="center"
+                android:textColor="@color/overWeightColor" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/category_bar_margin_top"
+            android:weightSum="3">
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/view_height"
+                android:layout_weight="1"
+                android:background="@color/view_under_weight_background" />
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/view_height"
+                android:layout_weight="1"
+                android:background="@color/view_normal_background" />
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/view_height"
+                android:layout_weight="1"
+                android:background="@color/view_over_weight_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/under_weight_lower_bound" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="15dp"
+                android:text="@string/under_weight_upper_bound"
+                result:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/normal_upper_bound" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/overweight_upper_bound"
+                android:textAlignment="textEnd">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/heightWeightLayoutBackground"
+    android:fillViewport="true"
+    tools:ignore="Overdraw">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/weight_height_table"
+            layout="@layout/weight_height_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include
+        layout="@layout/keyboard_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyboardLayoutHeight"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/show_bmi_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginStart="@dimen/result_margin_start"
+        android:layout_marginTop="@dimen/result_margin_top"
+        android:layout_marginEnd="@dimen/result_margin_end"
+        android:background="@color/colorWhite"
+        android:elevation="3dp"
+        android:paddingTop="@dimen/result_padding_top"
+        android:paddingBottom="@dimen/result_padding_bottom"
+        android:visibility="gone">
+
+        <include
+            layout="@layout/bmi_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>
